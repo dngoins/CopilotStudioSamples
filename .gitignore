@@ -331,3 +331,26 @@ ASALocalRun/
 /sabacha/Dispatcher/dispatcher.bot
 SharePointSSOComponent/package-lock.json
 SharePointSSOComponent/config/serve.json
+
+# === Security / Secrets (added) ===
+# Never commit real environment variable files
+.env
+.env.*
+!.env.template    # keep the template with placeholders
+**/.env           # nested .env files
+**/.env.*
+!**/.env.template
+
+# MSAL / auth token caches
+token_cache.bin
+**/token_cache.bin
+
+# Local Python virtual environments (prevent accidental commit of installed packages and potential caches)
+.venv/
+**/.venv/
+
+# Tool/telemetry caches
+**/.deepeval/
+
+# VS Code local settings that may contain secrets (optional uncomment)
+# .vscode/settings.json
