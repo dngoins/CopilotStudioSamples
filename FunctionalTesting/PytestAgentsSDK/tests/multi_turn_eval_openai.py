@@ -3,12 +3,22 @@ load_dotenv()
 
 import csv
 import os
+import sys
 import pytest
 import pytest_asyncio
-from deepeval.metrics import GEval
+
+# Ensure the parent directory is on sys.path so 'testinglib' can be imported when running this file directly
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from deepeval.test_case import LLMTestCase, LLMTestCaseParams
-from testinglib.copilot_client import CopilotStudioClient
-from microsoft.agents.core.models import ActivityTypes
+from testinglib.copilotstudioclient import CopilotStudioClient
+from deepeval.metrics import GEval
+from microsoft_agents.activity import ActivityTypes, load_configuration_from_env
+from microsoft_agents.copilotstudio.client import (
+    ConnectionSettings,
+    CopilotClient,
+)
+
 
 # Load test cases from CSV
 def load_test_cases_from_csv():
@@ -47,8 +57,10 @@ async def test_answer_relevancy(input_text, expected_output, started_client, req
         name="Correctness",
         evaluation_steps=[
             "Check whether the facts in 'actual output' contradict any facts in 'expected output'",
-            "You should also heavily penalize omission of detail",
-            "Vague language, or contradicting OPINIONS, are OK",
+            "You should also heavily penalize on contradictions",
+            "Vague language, or contradicting OPINIONS, are not OK",
+            "Many answers will be I'm sorry, I'm not sure how to help with that. Can you try rephrasing",
+            "It is ok to for agent to escalate to a human if configured",
             "Do not penalize disclaimers about AI-generated content being possibly incorrect",
         ],
         threshold=0.50,

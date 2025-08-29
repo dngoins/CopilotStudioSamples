@@ -1,4 +1,356 @@
 input_text,expected_output
-What is the capital of France?,The capital of France is Paris, which is known for its historical landmarks like the Eiffel Tower and the Louvre Museum.
-Who wrote 'Hamlet'?,William Shakespeare wrote the play 'Hamlet', which is considered one of the greatest works of English literature.
-What is the chemical symbol for water?,H3O is the correct chemical symbol for water.
+What is the capital of France?,"I'm sorry, I'm not sure how to help with that. Can you try rephrasing? or Escalating to a representative is not currently configured for this agent, however this is where the agent could provide information about how to get in touch with someone another way. Is there anything else I can help you with?"
+Who wrote 'Hamlet'?,"I'm sorry, I'm not sure how to help with that. Can you try rephrasing? Or Escalating to a representative is not currently configured for this agent, however this is where the agent could provide information about how to get in touch with someone another way. Is there anything else I can help you with?"
+What is the chemical symbol for water?,"I'm sorry, I'm not sure how to help with that. Can you try rephrasing? Or Escalating to a representative is not currently configured for this agent, however this is where the agent could provide information about how to get in touch with someone another way. Is there anything else I can help you with?"
+Hi,"Hello how can I help you"
+what can you do?,"I am a virtual agent designed to assist you with getting the latest news in AI and create an infographic image for you. Want to try it out just tell me to ""get latest ai news and image"""
+Get latest ai news,"{
+	""type"": ""AdaptiveCard"",
+	""$schema"": ""https://adaptivecards.io/schemas/adaptive-card.json"",
+	""version"": ""1.5"",
+	""body"": [
+		{
+			""type"": ""TextBlock"",
+			""text"": ""AI Strategic Intelligence: Innovation and Risk Developments in Automotive Technology"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Large""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""August 2025 | Executive Briefing for JM Family Enterprises Leadership"",
+			""wrap"": true,
+			""weight"": ""Bolder""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Executive Summary"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Medium""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Recent AI developments highlight the rapid evolution of machine learning and deep learning models, with new applications and risks emerging across industries. For the automotive sector, innovations such as OpenAI’s advanced speech-to-speech models and SAP’s AI-driven marketing tools signal both operational advantages and the need for robust consumer trust and cybersecurity."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Strategic Challenge"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Medium""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""JM Family faces the dual challenge of integrating cutting-edge AI technologies—like real-time speech interfaces and agentic AI—while managing increasing consumer skepticism and security threats, as revealed by SAP Emarsys’ findings that 92% of marketers use AI but consumer trust is declining, and Google’s admission that 69% of breaches go undetected."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Market Opportunity"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Medium""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Agentic AI, projected by Capgemini to unlock $450 billion in economic value by 2028, offers transformative opportunities for Southeast Toyota and JM&A Group to automate vehicle distribution, enhance dealer analytics, and personalize finance and customer experience solutions. However, only 2% of organizations have scaled its use, suggesting a first-mover advantage for JM Family."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Implications for JM Family Enterprises"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Medium""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""- **Operational Impact**: Deploying simpler machine learning models for inventory forecasting and climate-sensitive logistics (as shown by MIT’s climate prediction research) can improve distribution accuracy and reduce costs for Southeast Toyota and dealer networks."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""- **Competitive Implications**: With SAP, Google, and OpenAI advancing AI platforms, JM Family must accelerate adoption of real-time APIs and agentic automation to stay ahead in dealer operations and customer engagement."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""- **Strategic Considerations**: Prioritize integration of OpenAI’s Realtime API, image input, and SIP calling support into dealer CRM and finance platforms to streamline communications and improve customer service."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""- **Risk Mitigation**: Strengthen cybersecurity using Google Cloud’s AI-driven threat monitoring, and proactively address consumer trust issues through transparent AI practices and alignment with public input, as OpenAI’s collective alignment initiative suggests."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Recommended Actions"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Medium""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""1. Pilot OpenAI’s speech-to-speech and Realtime API capabilities within Southeast Toyota’s dealer management systems for faster, more accurate customer interactions."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""2. Launch a consumer trust initiative in partnership with SAP Emarsys to address AI transparency and build confidence in JM&A Group’s finance and insurance products."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""3. Evaluate agentic AI automation for vehicle distribution, leveraging Capgemini’s economic projections and MIT’s findings on model simplicity for operational efficiency."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""4. Collaborate with Google Cloud to implement advanced cybersecurity protocols and breach notification systems across all business units, mitigating risks in dealer and finance operations."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Key Market Intelligence"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Medium""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""• Active Players: SAP, OpenAI, Google"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""• Technology Focus: Machine learning, deep learning"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""• Market Metrics: $50M (OpenAI fund), 92% (AI use in marketing), 69% (breach notification lag), $450B (agentic AI value), 2% (agentic AI adoption)"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Key Article Highlights"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Medium""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""1. MIT researchers develop AI tool to improve flu vaccine strain selection (VaxSeer, machine learning for prediction) [Link]"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""2. Simpler models can outperform deep learning at climate prediction (logistics relevance) [Link]"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""3. AI security wars: Can Google Cloud defend against tomorrow’s threats? (cybersecurity for automotive networks) [Link]"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""4. Agentic AI: Promise, scepticism, and its meaning for Southeast Asia (Capgemini, $450B market) [Link]"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""5. Marketing AI boom faces crisis of consumer trust (SAP Emarsys, 92% adoption, trust gap) [Link]"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""---"",
+			""wrap"": true,
+			""isSubtle"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Now proceeding to image generation."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""AI Strategic Intelligence: Innovation and Risk Developments in Automotive Technology"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Large"",
+			""separator"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""August 2025 | Executive Briefing for JM Family Enterprises Leadership"",
+			""wrap"": true,
+			""weight"": ""Bolder""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Executive Summary"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Medium""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Recent AI developments highlight the rapid evolution of machine learning and deep learning models, with new applications and risks emerging across industries. For the automotive sector, innovations such as OpenAI’s advanced speech-to-speech models and SAP’s AI-driven marketing tools signal both operational advantages and the need for robust consumer trust and cybersecurity."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Strategic Challenge"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Medium""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""JM Family faces the dual challenge of integrating cutting-edge AI technologies—like real-time speech interfaces and agentic AI—while managing increasing consumer skepticism and security threats, as revealed by SAP Emarsys’ findings that 92% of marketers use AI but consumer trust is declining, and Google’s admission that 69% of breaches go undetected."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Market Opportunity"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Medium""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Agentic AI, projected by Capgemini to unlock $450 billion in economic value by 2028, offers transformative opportunities for Southeast Toyota and JM&A Group to automate vehicle distribution, enhance dealer analytics, and personalize finance and customer experience solutions. However, only 2% of organizations have scaled its use, suggesting a first-mover advantage for JM Family."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Implications for JM Family Enterprises"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Medium""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""- **Operational Impact**: Deploying simpler machine learning models for inventory forecasting and climate-sensitive logistics (as shown by MIT’s climate prediction research) can improve distribution accuracy and reduce costs for Southeast Toyota and dealer networks."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""- **Competitive Implications**: With SAP, Google, and OpenAI advancing AI platforms, JM Family must accelerate adoption of real-time APIs and agentic automation to stay ahead in dealer operations and customer engagement."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""- **Strategic Considerations**: Prioritize integration of OpenAI’s Realtime API, image input, and SIP calling support into dealer CRM and finance platforms to streamline communications and improve customer service."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""- **Risk Mitigation**: Strengthen cybersecurity using Google Cloud’s AI-driven threat monitoring, and proactively address consumer trust issues through transparent AI practices and alignment with public input, as OpenAI’s collective alignment initiative suggests."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Recommended Actions"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Medium""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""1. Pilot OpenAI’s speech-to-speech and Realtime API capabilities within Southeast Toyota’s dealer management systems for faster, more accurate customer interactions."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""2. Launch a consumer trust initiative in partnership with SAP Emarsys to address AI transparency and build confidence in JM&A Group’s finance and insurance products."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""3. Evaluate agentic AI automation for vehicle distribution, leveraging Capgemini’s economic projections and MIT’s findings on model simplicity for operational efficiency."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""4. Collaborate with Google Cloud to implement advanced cybersecurity protocols and breach notification systems across all business units, mitigating risks in dealer and finance operations."",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Key Market Intelligence"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Medium""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""• Active Players: SAP, OpenAI, Google"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""• Technology Focus: Machine learning, deep learning"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""• Market Metrics: $50M (OpenAI fund), 92% (AI use in marketing), 69% (breach notification lag), $450B (agentic AI value), 2% (agentic AI adoption)"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""Key Article Highlights"",
+			""wrap"": true,
+			""weight"": ""Bolder"",
+			""size"": ""Medium""
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""1. MIT researchers develop AI tool to improve flu vaccine strain selection (VaxSeer, machine learning for prediction) [Link]"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""2. Simpler models can outperform deep learning at climate prediction (logistics relevance) [Link]"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""3. AI security wars: Can Google Cloud defend against tomorrow’s threats? (cybersecurity for automotive networks) [Link]"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""4. Agentic AI: Promise, scepticism, and its meaning for Southeast Asia (Capgemini, $450B market) [Link]"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""5. Marketing AI boom faces crisis of consumer trust (SAP Emarsys, 92% adoption, trust gap) [Link]"",
+			""wrap"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""---"",
+			""wrap"": true,
+			""isSubtle"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""AI-powered automotive dealership environment with digital screens, Southeast Toyota vehicles, dealer staff using AI interfaces, cybersecurity shield, and cues to customer trust and agentic automation."",
+			""wrap"": true,
+			""isSubtle"": true
+		},
+		{
+			""type"": ""TextBlock"",
+			""text"": ""https://dalleproduse.blob.core.windows.net/private/images/ad6d2778-3f5a-47b3-ac7f-b2f7e6e5789e/generated_00.png?se=2025-08-30T16%3A00%3A07Z&sig=PXzISTxtnxahFf6qlkcwmIqBKxqPnBCPhFD3Rlr7AFM%3D&ske=2025-09-03T08%3A12%3A25Z&skoid=09ba021e-c417-441c-b203-c81e5dcd7b7f&sks=b&skt=2025-08-27T08%3A12%3A25Z&sktid=33e01921-4d64-4f8c-a055-5bdaffd5e33d&skv=2020-10-02&sp=r&spr=https&sr=b&sv=2020-10-02"",
+			""wrap"": true
+		}
+	]
+}"
