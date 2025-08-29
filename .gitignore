@@ -354,3 +354,9 @@ token_cache.bin
 
 # VS Code local settings that may contain secrets (optional uncomment)
 # .vscode/settings.json
+
+# ignore any file in any folder named "reports" 
+reports/
+**/reports/
+reports/**
+
