@@ -4,7 +4,7 @@ Who wrote 'Hamlet'?,"I'm sorry, I'm not sure how to help with that. Can you try 
 What is the chemical symbol for water?,"I'm sorry, I'm not sure how to help with that. Can you try rephrasing? Or Escalating to a representative is not currently configured for this agent, however this is where the agent could provide information about how to get in touch with someone another way. Is there anything else I can help you with?"
 Hi,"Hello how can I help you"
 what can you do?,"I am a virtual agent designed to assist you with getting the latest news in AI and create an infographic image for you. Want to try it out just tell me to ""get latest ai news and image"""
-Get latest ai news,"{
+Get latest ai news,"As long as the content has AI news and it is in a form of JSON. Here is an example of an Adaptive card with AI News: {
 	""type"": ""AdaptiveCard"",
 	""$schema"": ""https://adaptivecards.io/schemas/adaptive-card.json"",
 	""version"": ""1.5"",
@@ -18,7 +18,7 @@ Get latest ai news,"{
 		},
 		{
 			""type"": ""TextBlock"",
-			""text"": ""August 2025 | Executive Briefing for JM Family Enterprises Leadership"",
+			""text"": ""August 2025 | Executive Briefing for Comapny A Enterprises Leadership"",
 			""wrap"": true,
 			""weight"": ""Bolder""
 		},
@@ -43,7 +43,7 @@ Get latest ai news,"{
 		},
 		{
 			""type"": ""TextBlock"",
-			""text"": ""JM Family faces the dual challenge of integrating cutting-edge AI technologies—like real-time speech interfaces and agentic AI—while managing increasing consumer skepticism and security threats, as revealed by SAP Emarsys’ findings that 92% of marketers use AI but consumer trust is declining, and Google’s admission that 69% of breaches go undetected."",
+			""text"": ""Comapny A faces the dual challenge of integrating cutting-edge AI technologies—like real-time speech interfaces and agentic AI—while managing increasing consumer skepticism and security threats, as revealed by SAP Emarsys’ findings that 92% of marketers use AI but consumer trust is declining, and Google’s admission that 69% of breaches go undetected."",
 			""wrap"": true
 		},
 		{
@@ -55,12 +55,12 @@ Get latest ai news,"{
 		},
 		{
 			""type"": ""TextBlock"",
-			""text"": ""Agentic AI, projected by Capgemini to unlock $450 billion in economic value by 2028, offers transformative opportunities for Southeast Toyota and JM&A Group to automate vehicle distribution, enhance dealer analytics, and personalize finance and customer experience solutions. However, only 2% of organizations have scaled its use, suggesting a first-mover advantage for JM Family."",
+			""text"": ""Agentic AI, projected by Capgemini to unlock $450 billion in economic value by 2028, offers transformative opportunities for Southeast Toyota and Comapny A Group to automate vehicle distribution, enhance dealer analytics, and personalize finance and customer experience solutions. However, only 2% of organizations have scaled its use, suggesting a first-mover advantage for Comapny A."",
 			""wrap"": true
 		},
 		{
 			""type"": ""TextBlock"",
-			""text"": ""Implications for JM Family Enterprises"",
+			""text"": ""Implications for Comapny A Enterprises"",
 			""wrap"": true,
 			""weight"": ""Bolder"",
 			""size"": ""Medium""
@@ -72,7 +72,7 @@ Get latest ai news,"{
 		},
 		{
 			""type"": ""TextBlock"",
-			""text"": ""- **Competitive Implications**: With SAP, Google, and OpenAI advancing AI platforms, JM Family must accelerate adoption of real-time APIs and agentic automation to stay ahead in dealer operations and customer engagement."",
+			""text"": ""- **Competitive Implications**: With SAP, Google, and OpenAI advancing AI platforms, Comapny A must accelerate adoption of real-time APIs and agentic automation to stay ahead in dealer operations and customer engagement."",
 			""wrap"": true
 		},
 		{
@@ -99,7 +99,7 @@ Get latest ai news,"{
 		},
 		{
 			""type"": ""TextBlock"",
-			""text"": ""2. Launch a consumer trust initiative in partnership with SAP Emarsys to address AI transparency and build confidence in JM&A Group’s finance and insurance products."",
+			""text"": ""2. Launch a consumer trust initiative in partnership with SAP Emarsys to address AI transparency and build confidence in Comapny A Group’s finance and insurance products."",
 			""wrap"": true
 		},
 		{
@@ -187,7 +187,7 @@ Get latest ai news,"{
 		},
 		{
 			""type"": ""TextBlock"",
-			""text"": ""August 2025 | Executive Briefing for JM Family Enterprises Leadership"",
+			""text"": ""August 2025 | Executive Briefing for Comapny A Enterprises Leadership"",
 			""wrap"": true,
 			""weight"": ""Bolder""
 		},
@@ -212,7 +212,7 @@ Get latest ai news,"{
 		},
 		{
 			""type"": ""TextBlock"",
-			""text"": ""JM Family faces the dual challenge of integrating cutting-edge AI technologies—like real-time speech interfaces and agentic AI—while managing increasing consumer skepticism and security threats, as revealed by SAP Emarsys’ findings that 92% of marketers use AI but consumer trust is declining, and Google’s admission that 69% of breaches go undetected."",
+			""text"": ""Comapny A faces the dual challenge of integrating cutting-edge AI technologies—like real-time speech interfaces and agentic AI—while managing increasing consumer skepticism and security threats, as revealed by SAP Emarsys’ findings that 92% of marketers use AI but consumer trust is declining, and Google’s admission that 69% of breaches go undetected."",
 			""wrap"": true
 		},
 		{
@@ -224,12 +224,12 @@ Get latest ai news,"{
 		},
 		{
 			""type"": ""TextBlock"",
-			""text"": ""Agentic AI, projected by Capgemini to unlock $450 billion in economic value by 2028, offers transformative opportunities for Southeast Toyota and JM&A Group to automate vehicle distribution, enhance dealer analytics, and personalize finance and customer experience solutions. However, only 2% of organizations have scaled its use, suggesting a first-mover advantage for JM Family."",
+			""text"": ""Agentic AI, projected by Capgemini to unlock $450 billion in economic value by 2028, offers transformative opportunities for Southeast Toyota and Comapny A Group to automate vehicle distribution, enhance dealer analytics, and personalize finance and customer experience solutions. However, only 2% of organizations have scaled its use, suggesting a first-mover advantage for Comapny A."",
 			""wrap"": true
 		},
 		{
 			""type"": ""TextBlock"",
-			""text"": ""Implications for JM Family Enterprises"",
+			""text"": ""Implications for Comapny A Enterprises"",
 			""wrap"": true,
 			""weight"": ""Bolder"",
 			""size"": ""Medium""
@@ -241,7 +241,7 @@ Get latest ai news,"{
 		},
 		{
 			""type"": ""TextBlock"",
-			""text"": ""- **Competitive Implications**: With SAP, Google, and OpenAI advancing AI platforms, JM Family must accelerate adoption of real-time APIs and agentic automation to stay ahead in dealer operations and customer engagement."",
+			""text"": ""- **Competitive Implications**: With SAP, Google, and OpenAI advancing AI platforms, Comapny A must accelerate adoption of real-time APIs and agentic automation to stay ahead in dealer operations and customer engagement."",
 			""wrap"": true
 		},
 		{
@@ -268,7 +268,7 @@ Get latest ai news,"{
 		},
 		{
 			""type"": ""TextBlock"",
-			""text"": ""2. Launch a consumer trust initiative in partnership with SAP Emarsys to address AI transparency and build confidence in JM&A Group’s finance and insurance products."",
+			""text"": ""2. Launch a consumer trust initiative in partnership with SAP Emarsys to address AI transparency and build confidence in Comapny A Group’s finance and insurance products."",
 			""wrap"": true
 		},
 		{
